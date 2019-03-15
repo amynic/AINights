@@ -1,0 +1,28 @@
+"documents": [
+    {
+        "language": "fr",
+        "id": "1",
+        "text": "C'était une super session, J'ai appris beaucoup de nouvelles choses. Je pourrai utiliser ce contenu dans mon travail au quotidien."
+    },
+    {
+        "language": "fr",
+        "id": "2",
+        "text": "Je n'ai pas pu voir l'écran et la pièce atait trop chaude"
+    },
+    {
+        "language": "fr",
+        "id": "3",
+        "text": "pas assez d'exemples, trop basique, et ne correspondait pas à la description de la session"
+    },
+    {
+        "language": "fr",
+        "id": "4",
+        "text": "Cette session était divertissante et informative"
+    },
+    {
+        "language": "fr",
+        "id": "5",
+        "text": "J'assisterai certainement à d'autres sessions de ce type"
+    }
+]
+}

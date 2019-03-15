@@ -1,0 +1,29 @@
+{
+    "documents": [
+        {
+            "language": "en",
+            "id": "1",
+            "text": "This was a great session, I learnt lots of new things I can use in my daily job"
+        },
+        {
+            "language": "en",
+            "id": "2",
+            "text": "I could not see the projector screen and the room was too warm"
+        },
+        {
+            "language": "en",
+            "id": "3",
+            "text": "not enough examples, too basic and not how the session abstract described"
+        },
+        {
+            "language": "en",
+            "id": "4",
+            "text": "This session was entertaining and informative"
+        },
+        {
+            "language": "en",
+            "id": "5",
+            "text": "Will definitely attend other sessions like this"
+        }
+    ]
+}
