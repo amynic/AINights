@@ -9,7 +9,7 @@ We will cover pre-trained AI APIs, such as [computer vision](https://azure.micro
 
 
 ## Pre-requisites for your machine
-* Clone this repository to your local machine to gain images and code samples you need for the demos: ```git clone https://github.com/amynic/AINights.git```
+* Clone this repository to your local machine to gain images and code samples you need for the demos: ```git clone https://github.com/amynic/AINights.git``` or choose 'Clone or Download' green button and then 'Download ZIP'
 * [Microsoft Azure Subscription](https://azure.microsoft.com/en-gb/free/)
 * Laptop with a modern web browser (Google Chrome, Microsoft Edge)
 * [Postman, API Development Environment - available on Windows, Linux and macOS](https://www.getpostman.com/downloads/)
