@@ -88,7 +88,7 @@ Now create a request to call your text analytics API:
 * ![Headers and URL](/docs-images/url-and-headers.JPG)
 * Select Body underneath the URL box
 * Select ```raw``` from the radio button options
-* Copy JSON sample from ```sample-code/text-analytics-demo/sentiment-analysis-text.json``` into the box
+* Copy JSON sample from ```sample-code/cognitive-services-api-task/sentiment-analysis-text.json``` into the box
 * Select the ```Send``` button and review the Response
 * ![Body and Submit REST Request](/docs-images/rest-body.JPG)
 
