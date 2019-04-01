@@ -1,0 +1,27 @@
+{
+    "properties": {
+        "predictions": {
+            "items": {
+                "properties": {
+                    "probability": {
+                        "type": "number"
+                    },
+                    "tagId": {
+                        "type": "string"
+                    },
+                    "tagName": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "probability",
+                    "tagId",
+                    "tagName"
+                ],
+                "type": "object"
+            },
+            "type": "array"
+        }
+    },
+    "type": "object"
+}
