@@ -261,7 +261,19 @@ For the public access level setting select **Container (anonymous read access fo
 
 Now we will create a Logic App - this will connect your image storage account to your AI classification service and put the results in your results storage account
 
-On the Azure Portal Homepage, select **Create a Resource**. Type Logic App and select the service
+Head to the Azure Portal Homepage. We are going to use Event Grid, a service that detects triggers in an Azure subscription (in our case, when a new blob is created in your Azure Storage account). Before we build with this - we must register it.
+
+Got to subscriptions in the left panel, select your subscription and find Resource Providers in the left pane. Once the resource providers are listed - search "event" and select **Microsoft.EventGrid**.
+
+![Register Event Grid](docs-images/subscriptions.JPG)
+
+If this is not already status registered, select **register** from the toolbar
+
+![Register Event Grid selection](docs-images/register-event-grid.JPG)
+
+![Registered Event Grid](docs-images/registering.JPG)
+
+Once registered with a green tick - go back to the Azure Portal Homepage. Select **Create a Resource**. Type Logic App and select the service
 
 ![Logic App](docs-images/logic-app.JPG)
 
