@@ -194,13 +194,15 @@ To add these images to the model - select the first image, review the results th
 
 This image will disappear from the  your predictions workspace and be added to the training images workspace. Once you add a few new images and tags you can re-train the model to see if there are improvements.
 
-To use this model within applications you need the prediction details. Therefore, you have to go to the Performance tab from the top bar, Publish the model, and after publishing you will be able to select Prediction URL. 
+To use this model within applications you need the prediction details. Therefore, you have to go to the Performance tab from the top bar, click the **Publish** button and provide a name for this published iteration. 
 
-![Prediction URL Location](docs-images/prediction-url-location.JPG)
+![Prediction URL Location](docs-images/custom-vision-publish.JPG)
 
-Select this and you have the information you need to create a Postman call to your API, by setting the URL, the Header and the Body (using both an image or an image URL)
+![Prediction URL Name](docs-images/custom-vision-publish-name.JPG)
 
-![Prediction in Postman](docs-images/postman-custom-vision.JPG)
+You can now select the **Prediction URL** button to gain all information you need to create a Postman call to your API, by setting the URL, the Header and the Body (using both an image or an image URL)
+
+![Prediction in Postman](docs-images/custom-vision-newpredictionurl.JPG)
 
 **Great work!** you have created your specialised dog classification model using the Azure Custom Vision Service
 
