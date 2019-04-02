@@ -397,3 +397,7 @@ All sections should have a green tick and you can select each one to view the in
 Finally navigate to your results blob storage account, select blob, enter the results container and review the file now created there. The contents of the file should show similar to the below - given the dog image input, the predicted class of the dog and also a confidence score
 
 ![Result](docs-images/result.JPG)
+
+## Clean up resources	
+
+Finally, If you don't expect to need these resources in the future, you can delete them by deleting the resource group. To do so, select the resource group for this workshop, select Delete, then confirm the name of the resource group to delete.
