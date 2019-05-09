@@ -313,49 +313,41 @@ Then choose next step. Type **Parse JSON** and select the parse JSON operator as
 
 ![Parse JSON](docs-images/parse-json.JPG)
 
-Then choose next step. Type **HTTP** and select the HTTP option as below
+<<<>>>
+Then choose next step. Type **custom vision** and select the **Predict tags from image URL (preview)** as below
 
-![HTTP Connection](docs-images/http-connector.JPG)
+![Custom vision - predict image url](docs-images/predict-image-url.JPG)
 
-Now we need to fill in the details of the REST API request - similar to using Postman App.
+Now we need to fill in the details of the custom vision process
 
-* Method: POST
-* URI: enter Prediction URL from Custom Vision Service
-* Headers:
-    * "Prediction-Key" : enter your prediction key from the custom vision service
-    * "Content-Type" : "application/json"
-* Queries: enter nothing
-* Body: {"Url": "REPLACE WITH DYNAMIC CONTENT URL"}
+* **Project ID:** Find the project ID from the settings logo in the top right of the Custom Vision webpage
+    * ![Find Custom Vision Project ID](docs-images/find-project-id.JPG)
+* **Image URL:** select the input box and on the right side select URL from Parse JSON outputs
+    * ![Get URL for image](docs-images/get-url-to-predict.JPG)
+* **Add New Parameter:** 
+    * Select **Add New Parameter** drop down box
+    * select the Iteration ID parameter box
+    * ![Add Iteration ID](docs-images/add-iteration-id.JPG)
+    * Once selected, type **Iteration1** or your training iteration number in the box
+    * ![Add Iteration 1](docs-images/iteration1.JPG)
 
-![HTTP info](docs-images/http-request.JPG)
-
-Choose next step
-
-Then choose next step. Type **Parse JSON** and select the parse JSON operator again as part of the data Data Operations category
-
-* **Content:** select the box and from the Dynamic Content box on the right, select **Body**
-* **Schema:** select this box and enter the JSON schema provided in the [logic-app-schema2 file](sample-code/logic-app-task/logic-app-schema2.json) 
-
-> the difference between the two parse JSON is, the first one parses the event grid response about the blob storage image URL, the second one parses the JSON from the custom vision service API call return
-
-![Parse JSON](docs-images/parse-json-2.JPG)
 
 Choose next step
 
 type **for each** and select the grey control step called for each
 Once selected in the output from previous step box, select the box and from Dynamic content select **predictions** from the Parse JSON 2 category
 
-![For each prediction](docs-images/for-each-prediction.JPG)
+![For each prediction](docs-images/for-each-prediction-add-action.JPG)
 
 Choose **Add an action**
 
 Search Control, select the control icon and then from the results, select **Condition**
 
-![If Statement](docs-images/control-condition.JPG)
+![If Statement](docs-images/if-statement.JPG)
 
-In the Condition box, select choose a value. From Dynamic content find Parse Json 2 and then **probability**
+In the Condition box, select choose a value. From Dynamic content find 'Predict Tags from Image URL' and then **Probability**
 
-Set the condition to be probability greater than 0.7 (as shown below)
+Set the condition to be **Predicition Probability** greater than 0.7 (as shown below)
 
 ![Condition value](docs-images/probability.JPG)
 
