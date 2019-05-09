@@ -313,7 +313,6 @@ Then choose next step. Type **Parse JSON** and select the parse JSON operator as
 
 ![Parse JSON](docs-images/parse-json.JPG)
 
-<<<>>>
 Then choose next step. Type **custom vision** and select the **Predict tags from image URL (preview)** as below
 
 ![Custom vision - predict image url](docs-images/predict-image-url.JPG)
