@@ -73,7 +73,6 @@ Now select **Overview** in the left hand pane and copy the **Endpoint** variable
 Download and open Postman, an API Development environment on your local machine. 
 > Find the download in the [Pre-requisites section](#Pre-requisites-for-your-machine)
 
-> You can access the queries below here: [https://www.getpostman.com/collections/61c99ea67e654d31ac89](https://www.getpostman.com/collections/61c99ea67e654d31ac89) (copy and paste this link in the Import section of Postman)
 
 Select **Request**
 
