@@ -1,6 +1,21 @@
 # AI Nights **BONUS** Content - Beginner Track
 
-## Task: Microsoft Azure Cognitive Services - Computer Vision
+## Pre-requisites for your machine
+* Clone this repository to your local machine to gain images and code samples you need for the demos: ```git clone https://github.com/amynic/ainights-sessionowners.git```
+* [Microsoft Azure Subscription](https://azure.microsoft.com/en-gb/free/?WT.mc_id=ainights-github-amynic)
+* Laptop with a modern web browser (Google Chrome, Microsoft Edge)
+* [Postman, API Development Environment - available on Windows, Linux and macOS](https://www.getpostman.com/downloads/)
+* **[BONUS SECTION]** [Download docker for your local machine - available on Windows, Linux and macOS](https://docs.docker.com/docker-for-windows/)
+
+> *All demos and content have been tested on a Windows PC, however all options should run from macOS and Linux machines as well. Please provide information via an issue or pull request if you have feedback on other operating systems*  
+
+## Go to sections:
+
+* **Task A:** Microsoft Azure Cognitive Services - Computer Vision [Go to Section](#task-2-microsoft-azure-cognitive-services---custom-vision)
+* **Task B:** Microsoft Azure Cognitive Services - Text Analytics in a Container [Go to Section](#task-3-build-custom-ai-into-an-application---azure-logic-apps)
+* **Task C:** Microsoft PowerApps [Go to Section](#task-2-microsoft-azure-cognitive-services---custom-vision)
+
+## Task A: Microsoft Azure Cognitive Services - Computer Vision
 
 In this task you will try out the Cognitive Services using the website demo options
 
