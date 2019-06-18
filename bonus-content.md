@@ -12,8 +12,8 @@
 ## Go to sections:
 
 * **Task A:** Microsoft Azure Cognitive Services - Computer Vision [Go to Section](#task-a-microsoft-azure-cognitive-services---computer-vision)
-* **Task B:** Microsoft Azure Cognitive Services - Text Analytics in a Container [Go to Section](#task-3-build-custom-ai-into-an-application---azure-logic-apps)
-* **Task C:** Microsoft PowerApps [Go to Section](#task-2-microsoft-azure-cognitive-services---custom-vision)
+* **Task B:** Microsoft Azure Cognitive Services - Text Analytics in a Container [Go to Section](#task-b-microsoft-azure-cognitive-services---text-analytics-in-a-container)
+* **Task C:** Microsoft PowerApps [Go to Section](#task-c-microsoft-power-apps)
 
 ## Task A: Microsoft Azure Cognitive Services - Computer Vision
 
