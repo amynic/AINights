@@ -5,13 +5,13 @@
 * [Microsoft Azure Subscription](https://azure.microsoft.com/en-gb/free/?WT.mc_id=ainights-github-amynic)
 * Laptop with a modern web browser (Google Chrome, Microsoft Edge)
 * [Postman, API Development Environment - available on Windows, Linux and macOS](https://www.getpostman.com/downloads/)
-* **[BONUS SECTION]** [Download docker for your local machine - available on Windows, Linux and macOS](https://docs.docker.com/docker-for-windows/)
+* [Download docker for your local machine - available on Windows, Linux and macOS](https://docs.docker.com/docker-for-windows/)
 
 > *All demos and content have been tested on a Windows PC, however all options should run from macOS and Linux machines as well. Please provide information via an issue or pull request if you have feedback on other operating systems*  
 
 ## Go to sections:
 
-* **Task A:** Microsoft Azure Cognitive Services - Computer Vision [Go to Section](#task-2-microsoft-azure-cognitive-services---custom-vision)
+* **Task A:** Microsoft Azure Cognitive Services - Computer Vision [Go to Section](#task-a-microsoft-azure-cognitive-services---computer-vision)
 * **Task B:** Microsoft Azure Cognitive Services - Text Analytics in a Container [Go to Section](#task-3-build-custom-ai-into-an-application---azure-logic-apps)
 * **Task C:** Microsoft PowerApps [Go to Section](#task-2-microsoft-azure-cognitive-services---custom-vision)
 
@@ -100,7 +100,7 @@ You can also try other options from the REST API - such as KeyPhrases function. 
 
 > If you have any issues running Postman, API Development Environment you can always run the REST API requests within the API docs for [sentiment analysis](https://northeurope.dev.cognitive.microsoft.com/docs/services/TextAnalytics.V2.0/operations/56f30ceeeda5650db055a3c9/?WT.mc_id=ainights-github-amynic) and [key phrase extraction](https://northeurope.dev.cognitive.microsoft.com/docs/services/TextAnalytics.V2.0/operations/56f30ceeeda5650db055a3c6/?WT.mc_id=ainights-github-amynic). Select the data centre you are using and then enter your key in the box provided along with the sample body sample used in Postman
 
-## Task: Microsoft Azure Cognitive Services - Text Analytics in a Container
+## Task B: Microsoft Azure Cognitive Services - Text Analytics in a Container
 
 Demo based on the Azure Documentation: [Install and run Text Analytics containers](https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-install-containers/?WT.mc_id=ainights-github-amynic)
 
@@ -160,7 +160,7 @@ To stop the container from running when you finish, go back ot the command line 
 
 ![Application Shutdown](docs-images/application-shutdown.JPG)
 
-# Task: Microsoft Power Apps
+# Task C: Microsoft Power Apps
 ## Creating a front end application to take a picture of a dog and analyse it
 
 > NOTE: you must use your organizational account to use PowerApps. As this may become an issue 

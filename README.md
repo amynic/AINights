@@ -17,8 +17,8 @@ We will cover pre-trained AI APIs, such as [computer vision](https://azure.micro
 
 ## Go to sections:
 
-* **Task 1:** Microsoft Azure Cognitive Services - Custom Vision [Go to Section](#task-2-microsoft-azure-cognitive-services---custom-vision)
-* **Task 2:** Build Custom AI into an Application - Azure Logic Apps [Go to Section](#task-3-build-custom-ai-into-an-application---azure-logic-apps)
+* **Task 1:** Microsoft Azure Cognitive Services - Custom Vision [Go to Section](#task-1-microsoft-azure-cognitive-services---custom-vision)
+* **Task 2:** Build Custom AI into an Application - Azure Logic Apps [Go to Section](#task-2-build-custom-ai-into-an-application---azure-logic-apps)
 
 > If you find this workshop useful, find further **Bonus Content** **[HERE!](bonus-content.md)**
 
