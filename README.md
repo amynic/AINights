@@ -304,6 +304,15 @@ Finally navigate to your results blob storage account, select blob, enter the re
 
 ![Result](docs-images/result.JPG)
 
+## BONUS CONTENT AVAILABLE
+
+If you have enjoyed this lab session and wish to learn more about the Azure Cognitive Services, check out the [bonus-content](bonus-content.md) page for:
+* Using [Azure Cognitive Services](https://docs.microsoft.com/en-us/azure/cognitive-services/?WT.mc_id=beginnertrack-globalainights-amynic)
+* [Cognitive Services in Containers](https://docs.microsoft.com/en-us/azure/cognitive-services/cognitive-services-container-support/?WT.mc_id=beginnertrack-globalainights-amynic)
+* Building [Microsoft PowerApps](https://docs.microsoft.com/en-us/powerapps/#pivot=home&panel=maker/?WT.mc_id=beginnertrack-globalainights-amynic)
+
+Find all this content **[HERE!](bonus-content.md)**
+
 ## Clean up resources	
 
 Finally, If you don't expect to need these resources in the future, you can delete them by deleting the resource group. To do so, select the resource group for this workshop, select Delete, then confirm the name of the resource group to delete.
