@@ -238,14 +238,11 @@ Now we need to fill in the details of the custom vision process
 
 * **Project ID:** Find the project ID from the settings logo in the top right of the Custom Vision webpage
     * ![Find Custom Vision Project ID](docs-images/find-project-id.JPG)
+* **Published Name:** You can find the published name from the performance tab in the Custom Vision service
+    * * ![Find Custom Vision Project ID](docs-images/find-published-name.JPG)
 * **Image URL:** select the input box and on the right side select URL from Parse JSON outputs
     * ![Get URL for image](docs-images/get-url-to-predict.JPG)
-* **Add New Parameter:** 
-    * Select **Add New Parameter** drop down box
-    * select the Iteration ID parameter box
-    * ![Add Iteration ID](docs-images/add-iteration-id.JPG)
-    * Once selected, type **Iteration1** or your training iteration number in the box
-    * ![Add Iteration 1](docs-images/iteration1.JPG)
+
 
 
 Choose next step
