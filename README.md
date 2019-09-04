@@ -93,7 +93,7 @@ Now you should have all categories uploaded and on the left hand side you can se
 
 ![All images uploaded and tagged](docs-images/all-categories-uploaded.JPG)
 
-Now you are ready to train your algorithm on the dog image data you have uploaded. Select the green **'Train'** button in the top right corner
+Now you are ready to train your algorithm on the dog image data you have uploaded. Select the green **'Train'** button in the top right corner. For this demo, you can use the "Fast Training" option.
 
 Once the training process is complete it will take you to the Performance tab. Here you will receive machine learning evaluation metrics for your model
 
