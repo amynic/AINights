@@ -123,7 +123,7 @@ To use this model within applications you need the prediction details. Therefore
 
 ![Prediction URL Name](docs-images/custom-vision-publish-name.JPG)
 
-You can now select the **Prediction URL** button to gain all information you need to create a Postman call to your API, by setting the URL, the Header and the Body (using both an image or an image URL)
+You can now select the **Prediction URL** button to gain all information you need to create a Postman call to your API, by setting the URL, the Header and the Body (using both an image or an image URL). You must add the "Prediction-Key" and "Content-Type" items to header variables in Postman.
 
 ![Prediction in Postman](docs-images/custom-vision-newpredictionurl.JPG)
 
