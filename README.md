@@ -45,11 +45,11 @@ First create a Custom Vision instance in your Azure account.
 * Search for 'Custom Vision' 
 * On the description pane for Custom Vision click Create.
 * Enter details to create
-    * a name for the service 
-    * select your subscription 
-    * **[IMPORTANT]** Please choose **SOUTH CENTRAL US** as the data centre
+    * A name for the service 
+    * Select your subscription 
+    * Select the data centre location (in this example South Central US, but you can select your own region)
     * Choose the S0 tier for both 'Prediction pricing tier' and Training pricing tier
-    * Choose 'Create New' under resource group, enter 'ainights' and click ok.
+    * Select or create a resource group and make sure it is in the same data centre location (in this case 'ainights' in South Central US)
     * Click Create
 * ![Custom Vision Blade Details](/docs-images/custom-vision-azure.JPG)
 
@@ -93,7 +93,7 @@ Now you should have all categories uploaded and on the left hand side you can se
 
 ![All images uploaded and tagged](docs-images/all-categories-uploaded.JPG)
 
-Now you are ready to train your algorithm on the dog image data you have uploaded. Select the green **'Train'** button in the top right corner
+Now you are ready to train your algorithm on the dog image data you have uploaded. Select the green **'Train'** button in the top right corner. For this demo, you can use the "Fast Training" option.
 
 Once the training process is complete it will take you to the Performance tab. Here you will receive machine learning evaluation metrics for your model
 
