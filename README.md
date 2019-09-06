@@ -234,6 +234,14 @@ Then choose next step. Type **custom vision** and select the **Predict tags from
 
 ![Custom vision - predict image url](docs-images/predict-image-url.JPG)
 
+First we have to create a connection
+
+![Custom vision - create connection](docs-images/Create-a-connection.png)
+
+* **Connection Name:** Just a name for your connection
+* **Prediction Key:** Key (can be found in Custom vision project settings)
+* **Site URL:** Endpoint (can be found in Custom vision project settings)
+
 Now we need to fill in the details of the custom vision process
 
 * **Project ID:** Find the project ID from the settings logo in the top right of the Custom Vision webpage
