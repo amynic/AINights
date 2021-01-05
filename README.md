@@ -4,13 +4,13 @@
 ## Session Information 
 **Session Title:** Creating applications that can see, hear, speak or understand - using Microsoft Cognitive Services
 
-**Session Abstract:** In this workshop you will be introduced to the [Microsoft Azure Cognitive Services](https://azure.microsoft.com/en-gb/services/cognitive-services/?WT.mc_id=ainights-github-amynic), a range of offerings you can use to infuse intelligence and machine learning into your applications without needing to build the code from scratch. 
-We will cover pre-trained AI APIs, such as [computer vision](https://azure.microsoft.com/en-gb/services/cognitive-services/directory/vision/?WT.mc_id=ainights-github-amynic) and [text analytics](https://azure.microsoft.com/en-gb/services/cognitive-services/directory/lang/?WT.mc_id=ainights-github-amynic), that are accessed by REST protocol. Next we will dive into Custom AI that uses transfer learning - [Microsoft Azure Custom Vision](https://azure.microsoft.com/en-gb/services/cognitive-services/custom-vision-service/?WT.mc_id=ainights-github-amynic). This enables you to provide a small amount of your own data to train an image classification model. Wrapping the workshop up by building our custom trained AI into an application - using [Logic Apps](https://azure.microsoft.com/en-gb/services/logic-apps/?WT.mc_id=ainights-github-amynic), this technology is ideal for building data pipeline processes that work with your machine learning models.
+**Session Abstract:** In this workshop you will be introduced to the [Microsoft Azure Cognitive Services](https://azure.microsoft.com/services/cognitive-services/?WT.mc_id=aiml-0000-amynic), a range of offerings you can use to infuse intelligence and machine learning into your applications without needing to build the code from scratch. 
+We will cover pre-trained AI APIs, such as [computer vision](https://azure.microsoft.com/services/cognitive-services/directory/vision/?WT.mc_id=aiml-0000-amynic) and [text analytics](https://azure.microsoft.com/services/cognitive-services/directory/lang/?WT.mc_id=aiml-0000-amynic), that are accessed by REST protocol. Next we will dive into Custom AI that uses transfer learning - [Microsoft Azure Custom Vision](https://azure.microsoft.com/services/cognitive-services/custom-vision-service/?WT.mc_id=aiml-0000-amynic). This enables you to provide a small amount of your own data to train an image classification model. Wrapping the workshop up by building our custom trained AI into an application - using [Logic Apps](https://azure.microsoft.com/services/logic-apps/?WT.mc_id=aiml-0000-amynic), this technology is ideal for building data pipeline processes that work with your machine learning models.
 
 
 ## Pre-requisites for your machine
 * Clone this repository to your local machine to gain images and code samples you need for the demos: ```git clone https://github.com/amynic/AINights.git``` or choose 'Clone or Download' green button and then 'Download ZIP'
-* [Microsoft Azure Subscription](https://azure.microsoft.com/en-gb/free/?WT.mc_id=ainights-github-amynic)
+* [Microsoft Azure Subscription](https://azure.microsoft.com/free/?WT.mc_id=aiml-0000-amynic)
 * Laptop with a modern web browser (Google Chrome, Microsoft Edge)
 
 > *All demos and content have been tested on a Windows PC, however all options should run from macOS and Linux machines as well. Please provide information via an issue or pull request if you have feedback on other operating systems*  
@@ -40,7 +40,7 @@ There is also a set of test images (not for training) in this [.zip folder](samp
 
 First create a Custom Vision instance in your Azure account. 
 
-* Go to the [Azure Portal](https://ms.portal.azure.com) main dashboard. 
+* Go to the [Azure Portal](https://ms.portal.azure.com/?WT.mc_id=aiml-0000-amynic) main dashboard. 
 * Click 'Create a Resource' in the top left
 * Search for 'Custom Vision' 
 * On the description pane for Custom Vision click Create.
@@ -306,9 +306,9 @@ Finally navigate to your results blob storage account, select blob, enter the re
 ## BONUS CONTENT AVAILABLE
 
 If you have enjoyed this lab session and wish to learn more about the Azure Cognitive Services, check out the [bonus-content](bonus-content.md) page for:
-* Using [Azure Cognitive Services](https://docs.microsoft.com/en-us/azure/cognitive-services/?WT.mc_id=beginnertrack-globalainights-amynic)
-* [Cognitive Services in Containers](https://docs.microsoft.com/en-us/azure/cognitive-services/cognitive-services-container-support/?WT.mc_id=beginnertrack-globalainights-amynic)
-* Building [Microsoft PowerApps](https://docs.microsoft.com/en-us/powerapps/#pivot=home&panel=maker/?WT.mc_id=beginnertrack-globalainights-amynic)
+* Using [Azure Cognitive Services](https://docs.microsoft.com/azure/cognitive-services/?WT.mc_id=aiml-0000-amynic)
+* [Cognitive Services in Containers](https://docs.microsoft.com/azure/cognitive-services/cognitive-services-container-support/?WT.mc_id=aiml-0000-amynic)
+* Building [Microsoft PowerApps](https://docs.microsoft.com/powerapps/?WT.mc_id=aiml-0000-amynic#pivot=home&panel=maker/?WT.mc_id=beginnertrack-globalainights-amynic)
 
 Find all this content **[HERE!](bonus-content.md)**
 
